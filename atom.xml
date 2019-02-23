@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-23T05:46:21.181Z</updated>
+  <updated>2019-02-23T07:14:45.432Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello hexo</title>
+    <title>test page</title>
     <link href="http://yoursite.com/2016/09/04/day3/"/>
     <id>http://yoursite.com/2016/09/04/day3/</id>
     <published>2016-09-03T16:00:00.000Z</published>
-    <updated>2019-02-23T05:46:21.181Z</updated>
+    <updated>2019-02-23T07:14:45.432Z</updated>
     
     <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
     
@@ -43,23 +43,19 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
     
-      <category term="Hello" scheme="http://yoursite.com/categories/Hexo/Hello/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
       <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
     
   </entry>
   
   <entry>
-    <title>hello hexo</title>
+    <title>student adds</title>
     <link href="http://yoursite.com/2016/09/04/python1809%E7%AE%80%E4%B9%A6%E5%9C%B0%E5%9D%80/"/>
     <id>http://yoursite.com/2016/09/04/python1809简书地址/</id>
     <published>2016-09-03T16:00:00.000Z</published>
-    <updated>2019-02-23T06:47:43.052Z</updated>
+    <updated>2019-02-23T07:13:43.799Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://www.jianshu.com/u/03fa14f1493b" target="_blank" rel="noopener">曾令鹏</a><br><a href="https://www.jianshu.com/u/1e748933ff9a" target="_blank" rel="noopener">俞雷</a><br><a href="https://www.jianshu.com/u/617fa7346f49" target="_blank" rel="noopener">李源</a><br><a href="https://www.jianshu.com/u/2c2adcd90390" target="_blank" rel="noopener">秦黎</a><br><a href="https://www.jianshu.com/u/54cba5ed2164" target="_blank" rel="noopener">干友恒</a><br><a href="https://www.jianshu.com/u/d89488d99617" target="_blank" rel="noopener">伍佳佳</a><br><a href="https://www.jianshu.com/u/1d4f6812c265" target="_blank" rel="noopener">王宇</a><br><a href="https://www.jianshu.com/u/506874cc3005" target="_blank" rel="noopener">何俊杰</a><br><a href="https://www.jianshu.com/u/d39be65f9e9d" target="_blank" rel="noopener">郭旭</a></p><p><a href="https://www.jianshu.com/u/1ce40c03cee4" target="_blank" rel="noopener">朱铭</a><br><a href="https://www.jianshu.com/u/dcba8b83b834" target="_blank" rel="noopener">李厅康</a><br><a href="https://www.jianshu.com/u/9a152674b7b6" target="_blank" rel="noopener">杨超</a><br><a href="https://www.jianshu.com/u/25b8795e4bd0" target="_blank" rel="noopener">谢宜霖</a><br><a href="https://www.jianshu.com/u/073d5589d574" target="_blank" rel="noopener">蒲金彪</a>   </p><p><a href="https://www.jianshu.com/u/ce9e8ecf68cd" target="_blank" rel="noopener">杨浩</a><br><a href="https://www.jianshu.com/u/e0038bdb067d" target="_blank" rel="noopener">田浩</a><br><a href="https://www.jianshu.com/u/649c7ac39e66" target="_blank" rel="noopener">王子琪</a><br><a href="https://www.jianshu.com/u/d2e082406477" target="_blank" rel="noopener">彭盛兵</a><br><a href="https://www.jianshu.com/u/7020c7eeb241" target="_blank" rel="noopener">唐浩</a><br><a href="https://www.jianshu.com/u/ab524bdb5241" target="_blank" rel="noopener">薛毅</a><br><a href="https://www.jianshu.com/u/0aab6cd23888" target="_blank" rel="noopener">高盛茂</a><br><a href="https://www.jianshu.com/u/e3f7b050b3ee" target="_blank" rel="noopener">周旺</a><br><a href="https://www.jianshu.com/u/3a7058917b62" target="_blank" rel="noopener">莫军林</a><br><a href="https://www.jianshu.com/u/bc42ee573aa8" target="_blank" rel="noopener">王果</a><br><a href="https://www.jianshu.com/u/e4e3934d0539" target="_blank" rel="noopener">向军伟</a><br><a href="https://www.jianshu.com/u/4dfd1b3bbfe0" target="_blank" rel="noopener">赵一飞</a><br><a href="https://www.jianshu.com/u/07a637cdfe6f" target="_blank" rel="noopener">高龙伟</a><br><a href="https://www.jianshu.com/u/7bdcd02a99ff" target="_blank" rel="noopener">夏春雷</a><br><a href="https://www.jianshu.com/u/f0d4993faa39" target="_blank" rel="noopener">廖杭勇</a><br><a href="https://www.jianshu.com/u/870a81125dc2" target="_blank" rel="noopener">宋贤超</a><br><a href="https://www.jianshu.com/u/57dbc2e28eb4" target="_blank" rel="noopener">贺唐林</a><br><a href="https://www.jianshu.com/u/13a75cc6f9e8" target="_blank" rel="noopener">沙浩</a><br><a href="https://www.jianshu.com/u/f648f6306712" target="_blank" rel="noopener">张书语</a><br><a href="https://www.jianshu.com/u/ba8efa9a6f67" target="_blank" rel="noopener">何松</a><br><a href="https://www.jianshu.com/u/f01a2890fa00" target="_blank" rel="noopener">邱鲜</a><br><a href="https://www.jianshu.com/u/8643d92d0115" target="_blank" rel="noopener">郑晓卫</a><br>[ 杨健 ] ( <a href="https://www.jianshu.com/u/2fffe18db8e6" target="_blank" rel="noopener">https://www.jianshu.com/u/2fffe18db8e6</a> )<br><a href="https://www.jianshu.com/u/93ac376a5d8e" target="_blank" rel="noopener">陈伦巨</a><br><a href="https://www.jianshu.com/u/3e6de26a81ef" target="_blank" rel="noopener">郭锐</a><br><a href="https://www.jianshu.com/u/6e463b850a95" target="_blank" rel="noopener">杨海</a><br><a href="https://www.jianshu.com/p/feb1b062832f" target="_blank" rel="noopener">邓礼均</a><br><a href="https://www.jianshu.com/u/cbbcd344f8c5" target="_blank" rel="noopener">蒲旭鸿</a><br><a href="https://www.jianshu.com/writer#/notebooks/32674482/notes/39301226" target="_blank" rel="noopener">邓荣华</a><br><a href="https://www.jianshu.com/u/e33201cbfbb5" target="_blank" rel="noopener">卢俊臣</a><br><a href="https://www.jianshu.com/u/63c84996095f" target="_blank" rel="noopener">何志成</a></p>]]></content>
     
@@ -73,9 +69,7 @@
     </summary>
     
     
-      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
-    
-      <category term="地址" scheme="http://yoursite.com/tags/%E5%9C%B0%E5%9D%80/"/>
+      <category term="student" scheme="http://yoursite.com/tags/student/"/>
     
   </entry>
   
