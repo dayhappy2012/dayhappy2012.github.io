@@ -18,8 +18,450 @@
   
   <entry>
     <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(5)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (5)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(10)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (10)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (2)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (3)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(12)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (12)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(13)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (13)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(4)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (4)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(11)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (11)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(7)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (7)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(6)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (6)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(8)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (8)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC%20(9)/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本 (9)/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
     <link href="http://yoursite.com/2016/09/04/day3/"/>
     <id>http://yoursite.com/2016/09/04/day3/</id>
+    <published>2016-09-03T16:00:00.000Z</published>
+    <updated>2019-02-23T07:14:45.432Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>1.使用位运算判断一个数是否是奇数注：奇数的二进制的最后一位是1，偶数是02.表达式0x13&amp;0x17的值是（ ）3.若x=2,y=3则x&amp;y的结果是（ ）4.表达式 -97 | 120 的运算结果是()5.在位运算中，操作数每右移一位，其结果相当于（ ）  A.操作数乘以2     B.操作数除以2 C.操作数除以4     D.操作数乘以46.设x 是一个整数（16位）.若要通过x|y使x低度8位置1，高8位不变，则y的二进制数是（ ）7. 下面定义变量正确的是(a) a. a = b = c = 10b. a,c = 10 c. in = 20d. num = 10; t = 208. n = 6784，以下能够获取到7 的方法有（b）a. n / 1000 % 100 b. n % 1000 / 100c. n // 100 % 10d. n // 10  % 100 // 109.以下表达式 10 / 4 + 23 // 4 * 2 - 30的计算结果是：__-17.5____。10. 写代码获取输入数字12345中的每一位上的数字num = 12345print(&apos;万位:&apos;, num // 10000)print(&apos;千位:&apos;, num % 10000 // 1000)print(&apos;百位:&apos;, num % 1000 // 100)print(&apos;十位:&apos;, num % 100 // 10)print(&apos;个位:&apos;, num % 10)11. 写出判断一个数是否能同时被3和7整除的条件语句        num = int(input(&apos;请输入一个数字:&apos;))num1 = num % 3num2 = num % 7print(&apos;能否同时被3或7整除:&apos;,num1 == 0 and num2 == 0)    12. 写出判断一个数是否能够被3或者7整除，但是不能同时被3和7整除的表达式num = int(input(&apos;请输入一个数：&apos;))num1 = num % 3num2 = num % 7print(&apos;能否被3或者7整除：&apos;, num1 == 0 or num2 == 0)print(&apos;能否同时被3或7整除&apos;, num1 == 0 and num2 == 0)10. 今天上课讲了1500秒的课，编程计算今天上课时间是多少小时，多少分钟，多少秒all_second = 1500h = all_second // 3600minute = all_second // 60 - h * 60second = all_second % 60print(&apos;上课的时间是：&apos;, + h, &quot;小时&quot;, minute,&apos;分钟&apos;, second,&apos;秒&apos;)11. 定义两个变量保存一个人的身高和体重，编程实现判断这个人的身材是否完美！    公式：体重(kg)除以身高(m)的平方的值在18.5~24.9之间属于正常(输出True)height = float(input(&quot;请输入你的身高（m）：&quot;))weight = int(input(&quot;请输入你的体重（kg）：&quot;))perfect = weight / (height ** 2)print(&quot;完美身材?-------&gt;&quot;, 18.5 &lt; perfect &lt; 24.9)</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code&gt;1.使用位运算判断一个数是否是奇数
+注：奇数的二进制的最后一位是1，偶数是0
+
+2.表达式0x13&amp;amp;0x17的值是（ ）
+
+3.若x=2,y=3则x&amp;amp;y的结果是（ ）
+
+4.表达式 -97 | 120 的运算结果是()
+
+5.在位运算中，操作
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="http://yoursite.com/categories/hello/"/>
+    
+    
+      <category term="Hello" scheme="http://yoursite.com/tags/Hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test page</title>
+    <link href="http://yoursite.com/2016/09/04/day3%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2016/09/04/day3 - 副本/</id>
     <published>2016-09-03T16:00:00.000Z</published>
     <updated>2019-02-23T07:14:45.432Z</updated>
     
