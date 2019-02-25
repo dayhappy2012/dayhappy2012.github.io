@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[他们都说我吃多了]]></title>
-    <url>%2F2016%2F09%2F04%2Fday3%20-%20%E5%89%AF%E6%9C%AC%20(2)%20-%20%E5%89%AF%E6%9C%AC%2F</url>
-    <content type="text"><![CDATA[他们都说我吃多了斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急斤斤计较急急急急急急急急急急急急急急急急急急急急急急急急急]]></content>
+    <title><![CDATA[Mysql Basic syntax is constantly updated]]></title>
+    <url>%2F2018%2F09%2F04%2Fmysql%2F</url>
+    <content type="text"><![CDATA[1.创建数据库 CREATE DATABASE IF NOT EXISTS school default charset utf8; 1.2删除数据库 drop DATABASE IF EXISTS school; 1.3创建表格 &lt;create table if not EXISTS t_student(学号 int auto_increment,姓名 varchar(20),性别 bit DEFAULT 1,出生日期 date,PRIMARY key(学号));&lt;1.4删除表格 drop table if EXISTS t_student; 1.5清空表格 TRUNCATE table t_student; 1.6添加表格字段 alter table t_student ADD COLUMN score FLOAT(5, 1) DEFAULT 0; 1.7删除字段 alter table t_student drop COLUMN 出生日期; 2.增删改查 2.1 增加内容12-- insert into t_student VALUES( &apos;张三&apos;, , 20);-- insert into t_student(姓名) values (&apos;小明&apos;); 2.2删除内容123-- DELETE FROM t_student; -- 删除指定表所有的记录.-- delete from 表名 where 条件语句; 删除满足条件的数据; 2.3 修改内容12345-- 改 update 表名 set 字段1=新值1 ,字段2 = 新值2 where 条件语句;-- update t_student set 姓名 = &apos;小猪&apos; WHERE 姓名 = &apos;小明&apos;;-- update t_student set score = &apos;100&apos; where 姓名 like &apos;小%&apos;; 2.4查找内容 12345678910111213141516171819202122232425262728293031-- SELECT * from 表名;-- SELECT * FROM t_student;-- SELECT 姓名 from t_student;-- select * from t_student where 姓名 = &apos;小猪&apos;;-- select * from t_student where score = 20;-- select 姓名 from t_student where score &gt; 0;-- 列表重命名-- select 字段1 as 新字段,字段2 as 新字段2 from 表名;select 姓名 as &apos;stuname&apos; from t_student; -- 查询结果重命名select 姓名, if(性别,&apos;男&apos;,&apos;女&apos;) as 性别 from t_student;-- 列 合并select concat(姓名,&apos;:&apos;,学号) from t_student;-- 模糊查询select * from t_student where 姓名 like &apos;%猪%&apos; and score &lt; 101;-- 排序-- select * from 表名 ORDER BY 字段;select * from t_student ORDER BY score desc; -- 降序 升 ascselect * from t_student ORDER BY 学号 desc , score desc;-- 限制-- select * from t_student LIMIT M offset N; 跳过前4数据,然后取3条]]></content>
+      <categories>
+        <category>数据</category>
+      </categories>
       <tags>
-        <tag>Hello</tag>
+        <tag>data</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[他们都说我吃多了]]></title>
-    <url>%2F2016%2F09%2F04%2Fday3%20-%20%E5%89%AF%E6%9C%AC%20(2)%2F</url>
+    <url>%2F2016%2F09%2F04%2Fhello%2F</url>
     <content type="text"><![CDATA[DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222]]></content>
       <tags>
         <tag>Hello</tag>
