@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 15px;
+  margin: 0px 0 0px;
 }
 h1 {
   font-size: 22px;
@@ -487,7 +487,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .container .header-inner {
@@ -501,7 +501,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .container .main-inner {
@@ -519,7 +519,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 0px auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .container .footer-inner {
@@ -1404,7 +1404,7 @@ pre .javascript .function {
 .posts-collapse::after {
   content: " ";
   position: absolute;
-  top: 20px;
+  top: 0px;
   left: 0;
   margin-left: -2px;
   width: 4px;
@@ -1549,7 +1549,6 @@ pre .javascript .function {
   margin-left: 5px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 20px 0;
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
@@ -1598,7 +1597,7 @@ pre .javascript .function {
   }
 }
 .post-button {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .posts-expand .post-tags {
   margin-top: 40px;
@@ -2086,7 +2085,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4442a4;
+  background: #5bd7ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2725,7 +2724,7 @@ ul.breadcrumb li+li:last-child {
 .header {
   position: relative;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .header {
@@ -2797,9 +2796,9 @@ ul.breadcrumb li+li:last-child {
 .content-wrap {
   float: right;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 20px;
   width: calc(100% - 252px);
-  background: rgba(0,201,165,0.7);
+  background: #fff;
   min-height: 700px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
@@ -3032,7 +3031,7 @@ ul.breadcrumb li+li:last-child {
   box-sizing: border-box;
   width: 240px;
   color: #555;
-  background: rgba(64,224,208,0.2);
+  background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   border-radius: initial;
   opacity: 0;
@@ -3175,9 +3174,7 @@ ul.breadcrumb li+li:last-child {
   border-radius: initial;
 }
 .post-block {
-  padding: 40px;
-  padding-top: 10;
-  padding-bottom: 10;
+  padding: 20px;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
@@ -3188,7 +3185,7 @@ ul.breadcrumb li+li:last-child {
   border-radius: initial;
 }
 .comments {
-  padding: 40px;
+  padding: 20px;
   margin: auto;
   margin-top: 12px;
   background: #fff;
@@ -3196,7 +3193,7 @@ ul.breadcrumb li+li:last-child {
   border-radius: initial;
 }
 .posts-expand {
-  padding-top: initial;
+  padding-top: 90px;
 }
 .post-nav-divider {
   width: 4%;
@@ -3238,12 +3235,12 @@ ul.breadcrumb li+li:last-child {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sub-menu+ #content > #posts .post-block {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 767px) {
   .sub-menu+ #content > #posts .post-block {
-    margin-top: 8px;
+    margin-top: 20px;
   }
 }
 .post-header h1,
@@ -3297,33 +3294,33 @@ ul.breadcrumb li+li:last-child {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
-    padding: 10px;
+    padding: 20px;
   }
   .posts-expand {
     margin: initial;
   }
   .posts-expand .post-button {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .post-block {
-    padding: 20px;
+    padding: 40px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     border-radius: initial;
   }
   #posts > article + article .post-block {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .comments {
-    margin-top: 10px;
-    padding: 10px 20px;
+    margin-top: 20px;
+    padding: 20px 40px;
   }
   .pagination {
-    margin: 10px 0 0;
+    margin: 20px 0 0;
   }
 }
 @media (max-width: 767px) {
   .content-wrap {
-    padding: 8px;
+    padding: 20px;
   }
   .posts-expand {
     margin: initial;
@@ -3341,19 +3338,19 @@ ul.breadcrumb li+li:last-child {
     border-radius: initial;
   }
   #posts > article + article .post-block {
-    margin-top: 8px;
+    margin-top: 20px;
   }
   .comments {
-    margin-top: 8px;
+    margin-top: 20px;
     padding: 0 12px;
   }
   .pagination {
-    margin: 8px 0 0;
+    margin: 20px 0 0;
   }
 }
 .post {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
